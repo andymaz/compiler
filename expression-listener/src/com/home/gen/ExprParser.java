@@ -1,5 +1,5 @@
 // Generated from /home/andrei/IdeaProjects/expression-listener/src/uk/ac/essex/Expr.g4 by ANTLR 4.13.2
-package com.home;
+package com.home.gen;
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
 import org.antlr.v4.runtime.*;
@@ -97,7 +97,7 @@ public class ExprParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_start; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof ExprListener ) ((ExprListener)listener).enterStart(this);
+			if ( listener instanceof ExprListener) ((ExprListener)listener).enterStart(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {

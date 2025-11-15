@@ -1,5 +1,5 @@
 // Generated from /home/andrei/IdeaProjects/expression-listener/src/uk/ac/essex/Expr.g4 by ANTLR 4.13.2
-package com.home;
+package com.home.gen;
 
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.tree.ErrorNode;
